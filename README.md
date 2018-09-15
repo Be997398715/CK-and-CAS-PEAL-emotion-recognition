@@ -23,6 +23,7 @@ Using keras to recognize people emotions based on CK+ and CAS-PEAL dataset.
 使用步骤：
 1. 准备好python3及tensorflow-gpu和keras,opencv等依赖库的安装
 2. 下载好CK+和CAS-PEAL数据集后解压放到dataset文件夹中
+3. 运行cas-peal_image_preprocessing.py将照片分类后再手动分类
 3. 运行data_Augmemtation.py后产生dataset_preprocessing数据增强后的文件夹照片
 4. 运行data_Processing.py将增强后的数据集加载到ADD_CK+CAS_IMAGES48X48.pkl中并分好了训练集和测试集
 5. 运行Train.py进行训练保存的模型在ADD_CK+CAS_Image_model.h5中
